@@ -1,10 +1,22 @@
 package com.automation.steps;
 
+import io.cucumber.java.After;
+import io.cucumber.java.Before;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
 public class StepDefinition {
+
+    @Before
+    public void setUp(){
+
+    }
+    @After
+    public void cleanup(){
+
+    }
+
     @Given("user pen the website")
     public void user_pen_the_website() {
 
