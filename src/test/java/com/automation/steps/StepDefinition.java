@@ -82,4 +82,34 @@ public class StepDefinition {
     }
 
 
+    @Then("verify user could not access home page")
+    public void verifyUserCouldNotAccessHomePage() {
+        
+    }
+
+    @When("user enters valid password")
+    public void userEntersValidPassword() {
+        
+    }
+
+    @Given("user opens the website")
+    public void userOpensTheWebsite() {
+        
+    }
+
+    @When("user click login button with blank credentials")
+    public void userClickLoginButtonWithBlankCredentials() {
+        
+    }
+
+    @When("user copy paste valid credentials")
+    public void userCopyPasteValidCredentials() {
+
+    }
+
+    @When("user enters username {string} and password {string}")
+    public void userEntersUsernameAndPassword(String username, String password) {
+        System.out.println("Login with username "+ username);
+        System.out.println("Login with password " + password);
+    }
 }
